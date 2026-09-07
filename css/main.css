@@ -1,0 +1,22 @@
+body { margin: 0; font-family: Arial, sans-serif; background: #ffd93d; color: #3b1f0f; }
+nav { background: #b51f1f; padding: 12px; }
+nav h1 { color: white; margin: 0 0 8px 0; font-size: 26px; }
+nav a { color: white; text-decoration: none; background: #f17b21; padding: 7px 10px; margin-right: 4px; display: inline-block; }
+nav a:hover { background: #ffd93d; color: #b51f1f; }
+.hero { border: 3px solid #b51f1f; padding: 15px; margin: 18px; background: #f17b21; text-align: center; }
+.hero h2 { font-size: 34px; margin: 4px; }
+section { border: 3px solid #b51f1f; padding: 15px; margin: 18px; background: #fff2a8; }
+button, .button { background: #b51f1f; color: white; border: 2px solid #3b1f0f; padding: 9px 14px; text-decoration: none; display: inline-block; cursor: pointer; }
+.cards { display: flex; gap: 10px; flex-wrap: wrap; }
+.card { background: white; border: 2px dashed #f17b21; padding: 12px; width: 210px; }
+footer { background: #b51f1f; color: white; padding: 18px; text-align: center; margin-top: 20px; }
+img { max-width: 100%; }
+h2, h3 { color: #b51f1f; }
+ul { line-height: 1.7; }
+.contactbox input, .contactbox textarea { width: 90%; padding: 8px; margin: 5px 0; border: 2px solid #f17b21; }
+@media (max-width: 600px) {
+  nav a { display: block; margin: 5px 0; }
+  .cards { display: block; }
+  .card { width: auto; margin: 8px 0; }
+  .hero h2 { font-size: 27px; }
+}
